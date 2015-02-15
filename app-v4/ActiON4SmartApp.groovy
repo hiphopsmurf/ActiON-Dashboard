@@ -24,7 +24,7 @@ definition(
     namespace: "hiphopsmurf",
     author: "Alex Malikov",
     description: "ActiON Dashboard, a SmartThings web client.",
-    category: "Convenience",
+    category: "My Apps",
     iconUrl: "http://action-dashboard.github.io/icon.png",
     iconX2Url: "http://action-dashboard.github.io/icon.png",
     oauth: true)
