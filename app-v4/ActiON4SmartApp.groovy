@@ -21,7 +21,7 @@
  */
 definition(
     name: "ActiON4.6.2",
-    namespace: "625alex",
+    namespace: "hiphopsmurf",
     author: "Alex Malikov",
     description: "ActiON Dashboard, a SmartThings web client.",
     category: "Convenience",
@@ -877,6 +877,20 @@ def customCSS() {
 """
 <style>
 /*** Custonm CSS Start ***/
+
+.ui-page, body {
+  background-color: #999999!important;
+}
+
+.clock {
+	background-image: url('http://www.hiphopsmurf.com/smartthings/1603210.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.video {
+  background-color: #384586;
+}
 
 /*** Custonm CSS End *****/
 </style>
